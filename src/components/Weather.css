@@ -1,0 +1,29 @@
+.weather-box>div {
+    padding: 5px;
+}
+.weather-box-inner {
+    padding: 5px;
+    border: 1px solid #84c8ff;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.close-button {
+    cursor: pointer;
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+.close-button:hover {
+    color: #929191;
+    transition: all 0.2s ease-in-out;
+}
+.img-64 img {
+    width: 64px;
+}
+.weather-option-box {
+    padding: 5px;
+    text-align: center;
+    font-size: 9pt;
+    background-color: whitesmoke;
+    margin-left: 0%;
+    margin-right: 0%;
+}
