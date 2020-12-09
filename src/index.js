@@ -1,5 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { 
+  BrowserRouter as Router, 
+  Switch,
+  Route } from "react-router-dom";
 import store from './redux/store';
 import { Provider } from 'react-redux';
 import {
@@ -28,7 +32,11 @@ ReactDOM.render(
     <Provider store={store}>
         <CssBaseline />
         <MuiThemeProvider theme={theme}>
-          <App />
+          <Router>
+            <Switch>
+              <Route path="*" exact component={App} />
+            </Switch>
+          </Router>
         </MuiThemeProvider>
     </Provider>
     , document.getElementById("app"));
