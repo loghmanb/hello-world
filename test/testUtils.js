@@ -2,7 +2,7 @@ import checkPropTypes from 'check-prop-types';
 import { createStore,  applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
-import rootReducer from '../src/reducers';
+import rootReducer from '../src/redux/reducers';
 
 /**
  * @function storeFactory Set store for test purposes

@@ -1,8 +1,8 @@
-import { selectCity, updateCity } from './';
-import actionTypes from '../actionTypes';
+import { selectCity, updateCity } from '.';
+import actionTypes from './types';
 import moxios from 'moxios';
-import { storeFactory } from '../../test/testUtils';
-import { cityData } from '../helpers';
+import { storeFactory } from '../../../test/testUtils';
+import { cityData } from '../../helpers';
 
 describe('selectCity action creator', () => {
     beforeEach(() => {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { selectCity } from '../actions';
+import { selectCity } from '../redux/actions';
 import './City.css';
 
 class City extends Component {

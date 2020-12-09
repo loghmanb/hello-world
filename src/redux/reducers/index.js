@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import actionTypes from '../actionTypes';
-import { listOfCities } from '../helpers';
+import actionTypes from '../actions/types';
+import { listOfCities } from '../../helpers';
 
 const citiesReducer = () => {
     return listOfCities;

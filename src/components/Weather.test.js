@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
 import React from 'react';
 import { getByAttr, storeFactory } from '../../test/testUtils';
-import { selectCity, removeCity } from '../actions';
+import { selectCity, removeCity } from '../redux/actions';
 import moxios from 'moxios';
 import { cityData } from '../helpers';
 

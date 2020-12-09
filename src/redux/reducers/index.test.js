@@ -1,4 +1,4 @@
-import rootReducer from './';
+import rootReducer from '.';
 
 describe('selectedCities', () => {
     it('return `[]` when no action exists', () => {

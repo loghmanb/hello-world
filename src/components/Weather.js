@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import { connect } from 'react-redux';
 import { PropTypes } from 'prop-types';
-import actionTypes from '../actionTypes';
-import { removeCity } from '../actions';
+import actionTypes from '../redux/actions/types';
+import { removeCity } from '../redux/actions';
 import './Weather.css';
 /**
  * countryflags.io api uses to show country flag

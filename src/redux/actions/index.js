@@ -1,7 +1,7 @@
-import actionTypes from '../actionTypes';
+import actionTypes from './types';
 import PropTypes from 'prop-types';
 import axios from 'axios';
-import { apiKey } from '../helpers';
+import { apiKey } from '../../helpers';
 /**
  * @function selectCity will add a city to selectedCity reducer
  * @param {object} city 

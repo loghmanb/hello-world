@@ -1,5 +1,5 @@
 import { storeFactory } from '../test/testUtils';
-import { selectCity } from './actions';
+import { selectCity } from './redux/actions';
 import moxios from 'moxios';
 import { cityData } from './helpers';
 
